@@ -1,0 +1,1 @@
+# sqp-Intraday-stock-database-python
