@@ -26,11 +26,15 @@ Install the required packages via pip:
 Open MySQL Workbench and Connect to the Database:
 
 Launch MySQL Workbench and log in to your MySQL server using your credentials.
+
 In the Navigator panel on the left, locate and expand Schemas to see a list of available databases on your server.
+
 Find the database named intraday_trading (created by your Python script) and click to expand it. You should see a Tables section with the table intraday_prices listed.
+
 Open a New SQL Query Tab:
 
 In the top menu, click on the + icon next to the existing tabs to open a new SQL query tab. This will provide you with a blank editor where you can write and execute SQL queries.
+
 Run SQL Commands to View and Manage Data:
 
 Use the SQL commands below to explore and manage the data stored in the intraday_prices table:
@@ -59,6 +63,7 @@ WHERE ticker = 'IBM' AND timestamp = '2024-09-27 15:30:00';
 Delete Data:
 DELETE FROM intraday_trading.intraday_prices
 WHERE ticker = 'IBM' AND DATE(timestamp) = '2024-09-27';
+
 
 Execute Queries:
 
