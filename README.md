@@ -20,7 +20,9 @@ This project is a Python-based application that fetches intraday stock price dat
 
 Install the required packages via pip:
 
-##How to Run SQL Queries in MySQL Workbench
+## How to Run SQL Queries in MySQL Workbench
+
+
 Open MySQL Workbench and Connect to the Database:
 
 Launch MySQL Workbench and log in to your MySQL server using your credentials.
